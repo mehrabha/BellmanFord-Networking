@@ -50,3 +50,13 @@ clean(matrix)
 for node in matrix:
     print(node)
     print(matrix[node])
+
+node = input('Enter node: ').lower()
+
+i = 0
+if node in matrix:
+    for num in matrix[node]:
+        i += 1
+        print(str(i) + ': ' + str(num))
+else:
+    print('Node name not found')
