@@ -48,5 +48,5 @@ matrix = bellman_matrix('bellman-ford')
 clean(matrix)
 
 for node in matrix:
-    print(node, end=' ')
+    print(node)
     print(matrix[node])
